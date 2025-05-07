@@ -66,12 +66,14 @@
           ><span class="lorem-ipsum-dolor-14">Lorem Ipsum Dolor </span
           ><span class="blablabalbalalalblba-15">blablabalbalalalblba</span>
         </div>
-        <div class="rectangle-16">
-          <div class="basket-fill"></div>
-          <span class="virtual-food-storage">Virtual Food Storage</span
-          ><span class="lorem-ipsum-dolor-17">Lorem Ipsum Dolor </span
-          ><span class="blablabalbalalalblba-18">blablabalbalalalblba</span>
-        </div>
+        <a href="{{ route('storage') }}" style="text-decoration: none; color: inherit;">
+          <div class="rectangle-16">
+            <div class="basket-fill"></div>
+            <span class="virtual-food-storage">Virtual Food Storage</span>
+            <span class="lorem-ipsum-dolor-17">Lorem Ipsum Dolor </span>
+            <span class="blablabalbalalalblba-18">blablabalbalalalblba</span>
+          </div>
+        </a>
       </div>
       <div class="image-19"></div>
       <span class="provide-best">We Provide All The Best</span
