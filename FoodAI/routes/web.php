@@ -11,4 +11,5 @@ Route::get('/', function () {
 Route::get('/storage', function () {
     $ingredients = session('ingredients', []);
     return view('storagepage', ['ingredients' => $ingredients]);
+})->name('storage');
 });
